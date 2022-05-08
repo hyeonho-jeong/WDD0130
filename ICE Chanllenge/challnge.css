@@ -1,0 +1,22 @@
+/* do hover*/
+h1:hover{
+    color: black;
+}
+
+/*do margin*/
+body{
+    background-color: pink;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*color change*/
+[class="white"]{
+    color: white;
+}
+[class="text"]{
+    color: white;
+}
+}
+
