@@ -1,0 +1,25 @@
+body{
+    max-width:960px;
+    /*  max-width는 정해진 값보다 커지는건 원하지 않지만, 작아지는 건 괜찮다.*/
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+    /* 모든 탬플릿에 추가 */
+}
+
+.centered{
+    text-align: center;
+}
+
+.colored-background {
+    color:green;
+    background-color: salmon;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 1em;
+}
+.media-box{
+    background-color: white;
+}
