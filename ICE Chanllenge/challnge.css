@@ -2,15 +2,14 @@
 h1:hover{
     color: black;
 }
-
 /*do margin*/
 body{
     background-color: pink;
     font-size: 24px;
     text-align: center;
-    margin: 0 auto;
+    margin: center;
+  
 }
-
 /*color change*/
 [class="white"]{
     color: white;
@@ -18,5 +17,6 @@ body{
 [class="text"]{
     color: white;
 }
-}
+
+
 
