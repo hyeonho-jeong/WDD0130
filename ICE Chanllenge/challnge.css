@@ -5,11 +5,52 @@ h1:hover{
 /*do margin*/
 body{
     background-color: pink;
-    font-size: 24px;
+}
+
+
+.centerblock{
+    width:600px;
+    margin:auto;
+}
+
+.list{
     text-align: center;
     margin: center;
-  
 }
+.education{
+    text-align: center;
+    margin: center;
+    color: white;
+}
+
+.text1{
+    font-size: 16px;
+    text-align: center;
+    margin: center;
+    color:white;
+}
+
+.name{
+    text-align: center;
+    margin: center;
+    color: white;
+}
+
+
+.move{
+    text-align: center;
+    margin: auto; 
+}
+h2{
+    font-size: 24px;
+    text-align: center;
+    margin: auto;  
+}
+footer{
+    text-align: center;
+    margin: auto; 
+}
+
 /*color change*/
 [class="white"]{
     color: white;
