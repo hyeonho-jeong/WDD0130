@@ -1,0 +1,50 @@
+footer{
+    background-color: gray;
+}
+.center{
+    text-align: center;
+    margin:0;
+    width: 100%;
+    padding:0;
+    margin-bottom: -5px;
+
+}
+.img{
+    display: block;
+    justify-content: space-between;
+    padding: 60px;
+    text-align: center;
+    
+}
+
+div img{
+    margin: 50px
+}
+
+
+.center2{
+    padding:0;
+    
+}
+
+/* images*/
+.desk{
+    max-width: 200px;max-height: 200px;border-radius: 70%; overflow: hidden; border: solid rgb(55, 55, 55) 10px; 
+}
+.graphic{
+    max-width: 200px;max-height: 200px;border-radius: 70%; overflow: hidden; border: solid rgb(55, 55, 55) 10px;
+}
+.person{
+    max-width: 200px;max-height: 200px;border-radius: 70%; overflow: hidden; border: solid rgb(55, 55, 55) 10px; 
+
+}
+
+.xyz {
+    width: 100%;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
