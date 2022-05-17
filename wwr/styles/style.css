@@ -1,100 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Smooch&display=swap');
+
+body{
+    background-color:#fcfbfb;
+    font-family:Roboto, bradley Hand, sans-serif; ;
+    font-size:22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    margin:0;
+}
 
 #content{
-    /*setting a width*/
-    max-width: 1600px;
-    /* 09 centering the page*/
+    max-width:1600px;
     margin: 0 auto;
 }
 
-/* 10 more centering*/
-main section{
+#logo_link{
+    padding-top: 5px;
+}
+
+nav a{
     text-align: center;
+    color:firebrick;
+    text-decoration:none;
+    padding-top: 5px;
+}
+
+nav a:hover{
+    background-color:gainsboro; 
+    color:crimson;
+}
+
+.home-title{
+    font-family:Smooch, bradley Hand, sans-serif;
+    font-size:2em;
+    color:saddlebrown;
+    margin-top: 10px;
+}
+
+h4{
+    color:navy;
+}
+
+.book, .join{
+    background-color:azure; 
+    color:tomato;
+    text-decoration:none;
+    font-size:18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover{
+    background-color:lightcoral;
+    color:yellow;
+}
+
+.msg{
+    background-color: antiquewhite; 
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2{
+    color:dodgerblue;
+}
+
+.msg p{
+   color:darkviolet;
+   font-size: 0.8em;
+   padding-bottom: 15px;
 }
 
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
+
 .button-box{
-    text-align:center;
+    text-align: center;
+}
+
+main section{
+    text-align: center;
 }
 
 #background{
     height: 725px;
 }
 
-/*12 setting background colors*/
 body{
-     background-color: burlywood;
-     color:blue
-     }
+    background-color: burlywood;
+}
+
 header{
-       background-color: khaki;
-       color: black;
-       }
-nav a:hover{
-            background-color: black; 
-            color:aliceblue;
-            text-decoration: none;
-            text-align: center;
-            }
-
-.book:hover , .join:hover{
-           background-color: black; 
-           color:aliceblue;
-           text-decoration: none;
-    }
-             
-.home-title{
-    color: black;
-}
-
-h4{
-    color:brown;
-}
-
-#background {
-    background-color:darkgoldenrod;
-    color:aliceblue;
+    background-color: khaki;
 }
 
 
-.msg {
-    background-color: antiquewhite;
-    color:blue;
-}
-
-.msg h2{
-    color:blueviolet;
-}
-
-.msg p{
-    color:cadetblue;
+#background{
+    background-color:darksalmon;
 }
 
 
 footer{
-  background-color: antiquewhite;
-  color: brown
+    background-color:darkkhaki;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3{
-    color:chocolate;
+    color:lime;
+}
+
+footer a{
+    color:deeppink;
+    text-decoration:none;
 }
 
 footer a:hover{
-    color:crimson;
-    text-decoration: none;
+    color:bisque;
 }
 
-/* 14 add a few widths*/
-image #hero-img{
-    width: 100%
+footer .social img{
+    padding-top: 15px;
 }
+
+
+/* width*/
+
 .icon{
-    width: 80px;
+    width:80px;
+    padding-top: 10px;
 }
 
 .logo{
     width:80px;
 }
 
+#hero-img{
+    width:100%;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px darkgoldenrod solid;
+}
+
+main section img{
+    box-sizing: border-box;
+}
