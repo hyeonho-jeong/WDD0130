@@ -9,3 +9,13 @@ body{
 img{
    max-width:100%;
 }
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.img{
+    grid-column: 0;
+}

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Oswald:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Hind Siliguri, bradley Hand, sans-serif;
+    font-size: 20px;
+    background-color:#fcfbfb;
+    margin:0;
+    text-align: center;
+}
+
+header{
+    background-color:bisque;
+}
+
+.img{
+    background-color:beige;
+}
+
+main{
+    margin-top: -23px;
+    background-color:moccasin;
+}
+footer{
+  background-color:tomato;
+  margin-top: -23px;
+}
+
+img{
+   max-width:100%;
+
+}
+
+.alice{
+    border:8px solid #333;
+}
+
+.img :hover{
+    color: crimson;
+}
+
+.img{
+    color: brown;
+}
+
+.book :hover{
+    background-color:tomato;
+    color:aquamarine;
+}
+
+
+.slider{
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin:auto;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.slider input[type=radio]{
+    display:none;
+}
+
+
+ul.imgs{
+    padding: 0;
+    margin:0;
+    list-style: none;   
+    text-align: center;  
+}
+
+ul.imgs li{
+    position: absolute;
+    left: 800px;
+    transition-delay: 0s;
+    padding: 0;
+    margin:0;    
+}
+
+.bullets{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%)
+  top:-50 px;
+  z-index: 2;
+}
+
+
+.bullets label{
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.55);
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+    background-color: red;
+}
+.slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+    background-color: red;
+}
+.slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+    background-color: red;
+}
+.slider input[type=radio]:nth-child(4):checked~.bullets>label:nth-child(4){
+    background-color: red;
+}
+.slider input[type=radio]:nth-child(5):checked~.bullets>label:nth-child(5){
+    background-color: red;
+}
+.slider input[type=radio]:nth-child(6):checked~.bullets>label:nth-child(6){
+    background-color: red;
+}
+.slider input[type=radio]:nth-child(7):checked~.bullets>label:nth-child(7){
+    background-color: red;
+}
+.slider input[type=radio]:nth-child(8):checked~.bullets>label:nth-child(8){
+    background-color: red;
+}
+.slider input[type=radio]:nth-child(9):checked~.bullets>label:nth-child(9){
+    background-color: red;
+}
+.slider input[type=radio]:nth-child(10):checked~.bullets>label:nth-child(10){
+    background-color: red;
+}
+
+.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(4):checked~ul.imgs>li:nth-child(4){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+
+.slider input[type=radio]:nth-child(5):checked~ul.imgs>li:nth-child(5){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(6):checked~ul.imgs>li:nth-child(6){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;   
+}
+.slider input[type=radio]:nth-child(7):checked~ul.imgs>li:nth-child(7){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(8):checked~ul.imgs>li:nth-child(8){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(9):checked~ul.imgs>li:nth-child(9){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}
+.slider input[type=radio]:nth-child(10):checked~ul.imgs>li:nth-child(10){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+}

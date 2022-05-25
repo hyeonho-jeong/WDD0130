@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+img{
+   max-width:100%;
+   float:left;
+}
+
+
+main{
+    display:flex; 
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+}
+
+h1{
+    z-index: 1;
+}
+
+.gray{
+    width:650px; 
+    float:right;
+    background-color: gray;
+    justify-content:end;
+
+}
+
+.cherries{
+    color: red;
+    position: absolute;
+    text-align: center;
+    font-size: 80px;
+    top: 400px;
+    height:400px;
+    width:150%;
+}
+
+.letter{
+    font-size: 100px;
+    position: absolute;
+    text-align: center;
+    top:50px;
+    height:100px;
+    width:50px;
+    z-index: 1;
+}
