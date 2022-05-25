@@ -10,7 +10,6 @@ body{
 
 img{
    max-width:100%;
-   float:left;
 }
 
 
@@ -21,22 +20,15 @@ main{
     grid-template-columns: 50fr 50fr;
 }
 
-h1{
-    z-index: 1;
-}
-
-.gray{
-    width:650px; 
-    float:right;
+.gray{ 
     background-color: gray;
     justify-content:end;
-
 }
 
 .cherries{
     color: red;
     position: absolute;
-    text-align: center;
+    text-align: auto;
     font-size: 80px;
     top: 400px;
     height:400px;
