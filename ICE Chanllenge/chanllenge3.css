@@ -17,30 +17,31 @@ main{
     display:flex; 
     flex-wrap: wrap;
     display: grid;
-    grid-template-columns: 50fr 50fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .gray{ 
     background-color: gray;
-    justify-content:end;
+    grid-column: 2/3;
 }
 
 .cherries{
-    color: red;
+    color: darkred;
     position: absolute;
-    text-align: auto;
+    text-align: center;
     font-size: 80px;
-    top: 400px;
+    top: 490px;
     height:400px;
-    width:150%;
+    width:100px;
+    left: 800px;
+    margin: 0;
 }
 
 .letter{
-    font-size: 100px;
+    font-size: 180px;
     position: absolute;
     text-align: center;
-    top:50px;
-    height:100px;
-    width:50px;
-    z-index: 1;
+    top:80px;
+    left: 120px;
+    margin: 0;
 }
