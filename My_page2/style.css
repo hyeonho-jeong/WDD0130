@@ -3,6 +3,7 @@
 /* begin*/
 *{
     box-sizing: border-box;
+    /*화면 안의 크기가 화면 보다 넘어가지 않게 함*/
     max-width: 1600px;
 }
  
