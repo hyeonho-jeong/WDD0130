@@ -40,7 +40,7 @@ nav {
 nav a{
     text-decoration:none;
     color:#15b097;
-    font-size: 30px;
+    font-size: 40px;
     font-family:Oswald;
     
 }
@@ -65,8 +65,9 @@ nav a:hover{
     text-align: center;    
     box-shadow: 5px 5px 10px #6f7364;
     width: 100%;
+    font-size: 1.3em;
     grid-column: 2/3;
-    margin-top: -100px;
+    margin-top: -160px;
     left: 100px
 }
 .mainimage{
@@ -76,14 +77,142 @@ nav a:hover{
 
 .img{
     margin-top: 50px;
+    margin-left: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding:0;
     max-width: 1600px;  
+    justify-items: center;
+}
+
+.alice{
+    width:250px;
+    border: solid gray 4px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-left: 25px;
+}
+
+p{
+    text-align: center;
 }
 
 
+.img1:hover{
+    grid-column: 3/4;
+    opacity: 2;
+    transform: scale(1.9);
+    background-color: antiquewhite;
+    color: #15b097;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+
+.hope{
+    width:250px; 
+    border: solid gray 4px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-left: 10px;
+}
+
+.img7:hover{
+    grid-column: 3/4;
+    opacity: 2;
+    transform: scale(1.9);
+    background-color: antiquewhite;
+    color: #15b097;
+    font-size: 20px;
+    font-family: Oswald;
+}
  
+.beast{
+    width:250px;
+    border: solid gray 4px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-left:20px;
+}
+
+.img3:hover{
+    grid-column: 3/4;
+    opacity: 2;
+    transform: scale(1.9);
+    background-color: antiquewhite;
+    color: #15b097;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+.sad{
+    width:250px;
+    border: solid gray 4px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-left:20px;
+}
+
+.img9:hover{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    opacity: 2;
+    transform: scale(1.9);
+    background-color: antiquewhite;
+    color: #15b097;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+.prince{
+    width:250px;
+    border: solid gray 4px;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-left: 25px;
+}
+
+.img5:hover{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    opacity: 2;
+    transform: scale(1.9);
+    background-color: antiquewhite;
+    color: #15b097;
+    font-size: 20px;
+    font-family: Oswald;
+}
+
+.raise1{
+    width:250px;
+    height: 400px;
+    border: solid gray 4px;
+    box-shadow: 5px 5px 10px #6f7364
+}
+
+.son{
+    width:250px;
+    height: 400px;
+    border: solid gray 4px;
+    box-shadow: 5px 5px 10px #6f7364
+}
+
+.peace{
+    width:250px;
+    height: 400px;
+    border: solid gray 4px;
+    box-shadow: 5px 5px 10px #6f7364
+}
+
+.redeem{
+    width:250px;
+    height: 400px;
+    border: solid gray 4px;
+    box-shadow: 5px 5px 10px #6f7364
+}
+
+.raise2{
+    width:250px;
+    height: 400px;
+    border: solid gray 4px;
+    box-shadow: 5px 5px 10px #6f7364
+}
+
 /*footer*/
 
 footer{
