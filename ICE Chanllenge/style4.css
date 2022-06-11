@@ -1,0 +1,49 @@
+/* How to  "The card below has a small width so it should look good on any screen?"*/
+/*I am not sure about in this project width 100% is right?*/
+*{
+    box-sizing: border-box;
+    max-width: 1600px;
+}
+
+img{
+    max-width: 100%;
+    width:100%;
+}
+
+main{
+    text-align: center;
+}
+
+.week3{
+   color:cornflowerblue;
+}
+
+.brown{
+    color:dimgrey;
+}
+
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.t5{
+    border: 2px gray solid;
+    background-color:steelblue;
+    color:white;
+    text-align: center;
+}
+
+.t2031{
+    border: 2px gray solid;
+    background-color:steelblue;
+    color:white;
+    text-align: center;
+}
+
+.t15{
+    border: 2px gray solid;
+    background-color:steelblue;
+    color:white;
+    text-align: center;
+}
