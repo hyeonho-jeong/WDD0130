@@ -85,14 +85,24 @@ main{
 
 .childrendiv{
     padding-left: 30px;
-    grid-row: 2/3;
+    padding-top: 30px;
+    
 }
 
 .teendiv{
-    grid-column: 1/2;
-    grid-row:1/2;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
+.adultdiv{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.seniordiv{
+    padding-left: 30px;
+    padding-top: 30px;
+}
 /*footer*/
 
 footer{
