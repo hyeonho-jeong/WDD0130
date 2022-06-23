@@ -18,13 +18,30 @@ img{
     max-width: 100%;
 }
 
+.headoption{
+    border:#15b021 solid 7px;
+}
+
 /*header*/
 header{
     background-color:#f7fff6; 
     display: grid;
     grid-template-columns: 150px auto;
 }
-    
+  
+.search {
+    position: relative;
+    width: 300px;
+    padding-top: 15px;
+  }
+  
+  input {
+    width: 100%;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
 
 #logo{
     padding-top: 5px;
