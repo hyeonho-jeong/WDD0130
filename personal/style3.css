@@ -163,6 +163,9 @@ nav{
     .passage{
         border: 2px solid black;
         background-color: antiquewhite;
+        margin: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .map{
