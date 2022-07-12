@@ -15,8 +15,10 @@ body{
 }
 
 .headoption{
-    border:#15b021 solid 7px;
-    margin: 10px;
+    border:#15b021 solid 8px;
+    margin:10px;
+    
+   
 }
 
 .headoption2{
@@ -127,7 +129,7 @@ nav a:hover{
   .maintext {
     background-color: #04AA6D;
     color: white;
-    font-size: 16px;
+    font-size: 40px;
     padding: 16px 32px;
   }
 
